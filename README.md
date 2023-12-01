@@ -38,10 +38,8 @@ colcon build --merge-install --packages-up-to cyberdog_action_sample
 
 colcon build --merge-install --packages-select cyberdog_action_sample
 
-#若编译过程中出现/usr/bin/ld: cannot find -lgalaxy-fds-sdk-cpp导致编译错误的问题，请参照 <https://github.com/MiRoboticsLab/cyberdog_ws/issues/24>
-
 ```
-
+####若编译过程中出现/usr/bin/ld: cannot find -lgalaxy-fds-sdk-cpp导致编译错误的问题，请参照 <https://github.com/MiRoboticsLab/cyberdog_ws/issues/24>
 ### 运行
 #### 在终端启动功能包
 
